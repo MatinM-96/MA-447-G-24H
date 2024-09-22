@@ -4,10 +4,10 @@ from numpy.random import rand, seed
 
 # Define five different objective functions and their derivatives
 def objective1(x):
-    return x**3 + (6*x)**2 - (3*x) - 5
+    return x**2
 
 def derivative1(x):
-    return 3*x**2 + 12*x - 3
+    return 2*x
 
 def objective2(x):
     return x**3 + (5*x)**2 - (4*x) + 2
